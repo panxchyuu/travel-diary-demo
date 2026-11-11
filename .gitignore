@@ -1,0 +1,17 @@
+# Secrets and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+auth.json
+credentials.json
+
+# Dependencies and local output
+node_modules/
+.DS_Store
+*.log
+output/
+outputs/
+.workbuddy/
+docs/superpowers/
